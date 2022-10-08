@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/login/login"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color":"#333",
+        "selectedColor": "#d43c33",
+        "backgroundColor": "#fff",
+        "list":[
+            {
+                "pagePath": "pages/index/index",
+                "text":"主页"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text":"我的"
+            }
+        ]
+    }
+}

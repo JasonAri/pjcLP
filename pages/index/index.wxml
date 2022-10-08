@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view>
+weixin
+<text>index</text>
+</view>
