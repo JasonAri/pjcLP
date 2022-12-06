@@ -1,0 +1,31 @@
+<view class="personalContainer">
+  <view class="user-section">
+    <image class="bg" src="/static/images/personal/bgImg.webp" mode="aspectFill" />
+    <view class="user-info-box">
+      <!-- 头像 -->
+      <view class="portrait-box">
+        <image class="portrait" src="/static/images/personal/missing-face.png" />
+      </view>
+      <!-- 头像右侧 -->
+      <view class="info-box">未登录</view>
+    </view>
+  </view>
+  <mp-cells>
+    <mp-cell>
+      <mp-icon icon="email" color="black" size="{{25}}" />
+      我的消息
+    </mp-cell>
+    <mp-cell>
+      <mp-icon icon="contacts" color="black" size="{{25}}" />
+      我的好友
+    </mp-cell>
+    <mp-cell>
+      <mp-icon icon="me" color="black" size="{{25}}" />
+      个人主页
+    </mp-cell>
+    <mp-cell>
+      <mp-icon icon="help" color="black" size="{{25}}" />
+      联系管理员
+    </mp-cell>
+  </mp-cells>
+</view>
