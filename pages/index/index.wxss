@@ -1,1 +1,5 @@
 /* pages/index/index.wxss */
+.bottom-echarts{
+  height:30vh;
+  width: 100vw;
+}
